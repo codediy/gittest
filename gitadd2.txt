@@ -1,0 +1,15 @@
+git add .
+添加working-directoy中所有更新文件到staging-index中
+git add [file]
+添加指定文件更新到staging-index中
+
+eg:
+
+1 在working-directory中创建多个文件。
+	gitaddall/
+		gitaddall1.txt,
+		gitaddall2.txt,
+		gitaddall3.txt
+2 git add .
+3 git commit -m "git add .多个文件测试"
+4 git push -u origin master
