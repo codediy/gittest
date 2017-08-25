@@ -20,10 +20,11 @@ git branch -d new_branch
 git branch
 	输出 master
 
-4 下载远程分支
-git checkout my_branch
+4 本地切换分支
+gti branch new_branch
+git checkout new_branch 将切换到新的分支上
 
 5 合并本地分支
-git checkout branch_b
-git merge branch_a
+git checkout new_branch
+git merge master
 
