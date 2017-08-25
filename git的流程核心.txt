@@ -1,0 +1,48 @@
+1 git将文件内容分为四个组织层次
+其中 
+	Working               存储文件内容
+	Directory             
+
+	Staging(index)        Blob格式
+
+	Local                 本地git仓库 
+	Repository
+在本地
+
+	Remote                远程git仓库  
+	Repository
+在远程服务机器
+
+2 git的主要操作就是在个组织层次之间进行同步
+
+
+
+    |                              |                           |                        |
+    |                              |                           |                        |   
+    |-------------add------------->|--------commit------------>|---------push---------->|
+Working                          Staging                    Local                    Remote
+Directory                        (index)                    Repositroy               Repository
+	|                              |                           |                        |
+	|<-----------reset-------------|                           |<------fetch/pul--------|
+    |                                                          |                        |
+    |<--------------------------reset[commit]------------------|                        |
+    |                                                                                   |
+    |                                                                                   |
+    |<----------------------------------------pull/clone--------------------------------|
+
+
+从本地工作目录WorkingDirectory到远程Repository
+add
+commit
+push
+
+本地文件撤销操作
+rest             将Staging(index)覆盖到工作目录
+rest[commit]     将Local Repository覆盖到工作目录
+
+远程文件撤销
+fetch
+pull
+clone
+
+   
