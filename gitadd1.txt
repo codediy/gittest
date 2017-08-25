@@ -1,3 +1,10 @@
 git add [file]
 
 将 一个文件从 working-directory 添加到 staging-index中
+
+eg:
+
+1 在working-directory中创建文本 gitadd1.txt
+2 git add gitadd1.txt 添加更新到staging-index中
+3 git commit -m "git add [file]测试"
+4 git push -u origin master
