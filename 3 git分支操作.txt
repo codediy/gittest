@@ -1,0 +1,29 @@
+1 列出分支
+
+git branch      列出本地仓库分支
+	输出 master
+git branch -av  列出本地仓库和远程仓库分支
+	输出 master
+		 remotes/origin/master
+
+2 本地创建新分支
+
+git branch new_branch
+
+git branch 
+	输出 master
+		 branch
+
+3 本地删除分支
+git branch -d new_branch
+
+git branch
+	输出 master
+
+4 下载远程分支
+git checkout my_branch
+
+5 合并本地分支
+git checkout branch_b
+git merge branch_a
+

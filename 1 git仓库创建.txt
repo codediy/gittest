@@ -1,0 +1,10 @@
+1 git仓库的创建主要有两种方式
+
+第一种 创建本地仓库
+git init [project name]
+将会在当前目录初始化一个git仓库
+
+
+第二种 下载已有git仓库到本地
+git clone url
+将会下载已有git仓库到本地
