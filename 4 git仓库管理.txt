@@ -1,0 +1,12 @@
+1 git push
+提交push到远程分支
+
+2 git fetch origin master
+下载远程分支到本地 不进行合并处理
+
+3 git pull origin master
+下载远程分支到本地 并进行合并处理
+相等于
+git fetch后再进行 
+git merge
+
